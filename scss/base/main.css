@@ -562,6 +562,10 @@ a {
   background-color: #111111;
 }
 
+.mission__inner {
+  padding-bottom: 10vh;
+}
+
 .mission__content {
   min-height: 72vh;
   padding-top: 6vh;
@@ -715,6 +719,10 @@ a {
 
 .price {
   min-height: 100vh;
+}
+
+.price__inner {
+  padding-bottom: 10vh;
 }
 
 .price__title {
@@ -1079,6 +1087,10 @@ a {
 .podcasts {
   min-height: 100vh;
   background-color: #111111;
+}
+
+.podcasts__inner {
+  padding-bottom: 10vh;
 }
 
 .podcasts__title {
