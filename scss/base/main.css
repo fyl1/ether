@@ -181,6 +181,14 @@ main {
   font-family: 'AsgardWide', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-family: 'AsgardWide', sans-serif;
   font-weight: 700;
