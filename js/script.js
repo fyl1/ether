@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const MainVideo = document.querySelector(".mein-video");
   const menu = document.querySelectorAll(".menu");
   const burgerBtn = document.querySelectorAll(".burger");
-  const secondVideo = document.querySelector(".second-video")
+  const secondVideo = document.querySelector(".second-video");
+  const openLink = document.querySelectorAll(".menu .menu--open .main-nav__link")
 
   // MainVideo.play();
   // secondVideo.play();
@@ -12,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // burgerBtn.addEventListener('click', ()=>{
   //   menu.classList.toggle('menu--open');
   // });
+  
   burgerBtn.forEach((item) => {
     item.addEventListener("click", function () {
       this.parentNode.classList.toggle("menu--open")
@@ -19,6 +21,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
       // if (this.parentNode.contains != "menu--open") {
       //   console.log(this.parentNode.contains)
       //   document.body.style.overflow = 'inherit';
+      // }
+    });
+
+  });
+  openLink.forEach((item) => {
+    item.addEventListener("click", function () {
+      menu.forEach((item2) => {
+        item2.addEventListener("click", function () {
+          item2.classList.remove("menu--open")
+          // document.body.style.overflow = 'hidden';
+          // if (this.parentNode.contains != "menu--open") {
+          //   console.log(this.parentNode.contains)
+          //   document.body.style.overflow = 'inherit';
+          // }
+        });
       // }
     });
 
