@@ -683,6 +683,9 @@ a {
     width: 100%;
     padding-bottom: 1vh;
   }
+  .mission__inner {
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1174,6 +1177,9 @@ a {
   }
   .podcasts {
     padding-bottom: 5vh;
+  }
+  .podcasts__inner {
+    padding-bottom: 0;
   }
 }
 
