@@ -1,0 +1,41 @@
+.main-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'AsgardWide', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25vw;
+  line-height: 1;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding: 1vh 1.5vw 1vh 1.5vw;
+  background-color: #E2382B;
+  span{
+      padding: 0  0.6vw 0 0;
+      &:last-child{
+          padding: 0;
+      }
+  }
+}
+@media (max-width: 1199px) {
+  .main-btn{
+    font-size: 2.45vw;
+    padding: 1.4vh 2vw 1vh 2vw;
+  }
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .main-btn{
+    font-size: 3.45vw;
+  }
+}
+
+@media (max-width: 479px) {
+}

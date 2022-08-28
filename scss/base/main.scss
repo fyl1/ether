@@ -1,0 +1,20 @@
+@import "../base/_fonts";
+@import "../base/_colors";
+@import "../base/_reset";
+@import "../base/_functions";
+@import "../base/_functions-em";
+///////////////////////////////////////////  pages /////////////////////////////
+
+@import "../pages_scss/_pages";
+
+
+
+/////////////////////////////////////////// components /////////////////////////////
+@import "../components/_header";
+@import "../components/_intro";
+@import "../components/_btn-select.scss";
+@import "../components/_mission.scss";
+@import "../components/_price.scss";
+@import "../components/_contacts.scss";
+@import "../components/_podcasts.scss";
+@import "../components/_burger.scss";
