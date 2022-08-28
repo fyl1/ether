@@ -1302,6 +1302,10 @@ a {
           transform: scaleX(0);
 }
 
+.menu.menu--open {
+  z-index: 999;
+}
+
 .menu--open .main-nav {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
