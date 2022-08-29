@@ -1098,7 +1098,8 @@ a {
     padding-bottom: 2vh;
   }
   .contacts__video {
-    height: 60vh;
+    height: auto;
+    min-height: 35vh;
   }
   .contacts__subtext a {
     font-size: 3.8vw;
