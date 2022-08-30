@@ -492,7 +492,6 @@ a {
   }
   .intro__video-wrapp {
     width: 101vw;
-    height: auto;
     margin: 0;
   }
   .intro-footer {
@@ -518,7 +517,7 @@ a {
 
 @media (max-width: 767px) {
   .intro {
-    padding-top: 2vh;
+    padding-top: 6vh;
   }
   .intro__inner {
     height: calc(100vh - 22.9vh);
@@ -538,6 +537,10 @@ a {
   }
   .intro__video-wrapp {
     min-height: 35vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-height: 40vh;
   }
   .intro-footer {
     padding-top: 6vh;
