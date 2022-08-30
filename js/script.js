@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const menu = document.querySelectorAll(".menu");
   const burgerBtn = document.querySelectorAll(".burger");
   const secondVideo = document.querySelector(".second-video");
-  const openLink = document.querySelectorAll(".menu.menu--open .main-nav__link")
+  const openLink = document.querySelector(".menu--open")
 
   // MainVideo.play();
   // secondVideo.play();
@@ -25,46 +25,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
 
   });
-  // if(){
-
-  // }
-  console.log(openLink)
-  console.log(openLink.contains + " ddd")
-  // openLink.forEach((item) => {
-  //   item.addEventListener("click", function () {
-  //     this.parentNode.classList.remove("menu--open")
-  //     // document.body.style.overflow = 'hidden';
-  //     // if (this.parentNode.contains != "menu--open") {
-  //     //   console.log(this.parentNode.contains)
-  //     //   document.body.style.overflow = 'inherit';
-  //     // }
-  //   });
-
-  // });
-  if(openLink == true){
-console.log("dddd1")
-  }else{
-    console.log("dddd2")
+  if (menu.contains == "menu--open") {
+    console.log("тут что-то есть")
   }
-  openLink.forEach((item) => {
-    console.log("тут вообеще что-то происходит 1")
-    item.addEventListener("click", function () {
-      console.log("тут вообеще что-то происходит 2")
-      for (var i = 0; i < menu.length; i++) {
-          menu[i].classList.remove('menu--open');
-          menu[i].onclick = function (event) {
-              console.log("ONCLICK");
-              //remove all active class
-              removeClass();
-          }
+  console.log(openLink)
+  menu.forEach((item) => {
+    item.addEventListener("click", function (e) {
+      console.log( event.target)
+      if (event.target == "main-nav__link") {
+        console.log("тут что-то есть")
       }
-      
-      function removeClass(){
-        for (var i = 0; i < menu.length; i++) {
-          menu[i].classList.remove('menu--open');
-        }
-      }
+      // this.parentNode.classList.toggle("menu--open")
+      // // document.body.style.overflow = 'hidden';
+      // // if (this.parentNode.contains != "menu--open") {
+      // //   console.log(this.parentNode.contains)
+      // //   document.body.style.overflow = 'inherit';
+      // // }
     });
   });
-
 });

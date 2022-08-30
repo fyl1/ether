@@ -509,7 +509,7 @@ a {
     margin-left: -4.4vw;
   }
   .intro__video-wrapp {
-    height: 62vh;
+    min-height: 35vh;
   }
   .intro-footer {
     padding-top: 6vh;
@@ -1438,6 +1438,7 @@ a {
     margin-bottom: 0;
   }
   .main-nav__list {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1456,6 +1457,7 @@ a {
         -ms-flex-pack: start;
             justify-content: flex-start;
     text-align: left;
+    z-index: 2;
   }
   .main-menu.menu.menu--open .main-nav {
     padding-top: 0;
