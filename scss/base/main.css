@@ -477,6 +477,7 @@ a {
   }
   .intro__video-wrapp {
     width: 101vw;
+    height: auto;
     margin: 0;
   }
   .intro-footer {
@@ -502,7 +503,20 @@ a {
 
 @media (max-width: 767px) {
   .intro {
-    padding-top: 9vh;
+    padding-top: 2vh;
+  }
+  .intro__inner {
+    height: calc(100vh - 17.9vh);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .intro__video {
     margin-left: -4.4vw;
@@ -512,6 +526,8 @@ a {
   }
   .intro-footer {
     padding-top: 6vh;
+    margin-top: auto;
+    margin-bottom: 0;
   }
   .intro__bac-fon--mob {
     max-width: 79%;
@@ -520,7 +536,7 @@ a {
     font-size: 2.7vw;
   }
   .intro-footer__btn {
-    padding-top: 16vh;
+    padding-top: 10vh;
   }
   .intro-footer {
     padding-bottom: 6vh;

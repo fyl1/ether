@@ -103,7 +103,7 @@ padding-bottom: 3vh;
   }
   .intro__video-wrapp {
     width: 101vw;
-    // height: auto;
+    height: auto;
     margin: 0;
   }
   .intro-footer{
@@ -129,7 +129,14 @@ padding-bottom: 3vh;
 
 @media (max-width: 767px) {
   .intro{
-    padding-top: 9vh;
+    // padding-top: 9vh;
+    padding-top: 2vh;
+  }
+  .intro__inner{
+    height: calc(100vh - 17.9vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .intro__video{
     margin-left: -4.4vw;
@@ -139,6 +146,8 @@ padding-bottom: 3vh;
   }
   .intro-footer{
     padding-top: 6vh;
+    margin-top: auto;
+    margin-bottom: 0;
   }
   .intro__bac-fon--mob{
     max-width: 79%;
@@ -147,7 +156,8 @@ padding-bottom: 3vh;
     font-size: 2.7vw;
   }
   .intro-footer__btn{
-    padding-top: 16vh;
+    // padding-top: 16vh;
+    padding-top: 10vh;
   }
   .intro-footer{
     padding-bottom: 6vh;
