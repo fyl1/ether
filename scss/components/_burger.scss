@@ -27,7 +27,7 @@
   .burger {
       display: none;
     width: 42px;
-    height: 2vh;
+    height:20px;
     box-sizing: border-box;
     background-color: transparent;
     border: none;
@@ -58,12 +58,12 @@
   }
   
   .burger__line:nth-child(2) {
-    top: 1vh;
+    top: 10px;
   }
   
   
   .burger__line:nth-child(3) {
-    top: 2vh;
+    top: 20px;
   }
   
   .menu--open .burger__line:nth-child(1) {
@@ -71,17 +71,20 @@
   }
   
   .menu--open .burger__line:nth-child(2) {
-    transform: rotate(45deg) translate(6px);
+    transform: rotate(45deg);
   }
   
   .menu--open .burger__line:nth-child(3) {
-    transform: rotate(-45deg) translate(5px);
+    transform: rotate(-45deg);
   }
   
   .menu--open .burger__line:nth-child(4) {
     transform: scaleX(0);
   }
-  
+    
+  .menu--open .burger__line:nth-child(2) {
+    top: 20px;
+  }
   .main-nav {
 
   }
