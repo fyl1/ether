@@ -348,6 +348,10 @@ a {
   color: #111111;
 }
 
+.header--first {
+  background-color: #fcfcfc;
+}
+
 @media (max-width: 1199px) {
   .header {
     padding: 2vh 0;
@@ -369,6 +373,7 @@ a {
   min-height: calc(100vh - 12.9vh);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #fcfcfc;
 }
 
 .intro__inner {
@@ -453,6 +458,7 @@ a {
   -o-object-fit: contain;
      object-fit: contain;
   padding-top: 3vh;
+  mix-blend-mode: difference;
 }
 
 .intro__bac-fon--mob {

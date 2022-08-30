@@ -2,6 +2,7 @@
   padding-top: 7vh;
   min-height: calc(100vh - 12.9vh);
   box-sizing: border-box;
+  background-color: #fcfcfc;
   // .intro__inner
 
   &__inner {
@@ -71,6 +72,7 @@
   img {
     object-fit: contain;
     padding-top: 3vh;
+    mix-blend-mode: difference;
   }
 }
 .intro__bac-fon--mob {
