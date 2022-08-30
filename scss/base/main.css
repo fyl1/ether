@@ -506,7 +506,7 @@ a {
     padding-top: 2vh;
   }
   .intro__inner {
-    height: calc(100vh - 19.9vh);
+    height: calc(100vh - 22.9vh);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
