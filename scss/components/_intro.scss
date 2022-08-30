@@ -30,6 +30,7 @@
     width: 58.7vw;
     height: 59vh;
     margin-left: 3.7vw;
+    z-index: 3;
   }
 }
 
@@ -69,10 +70,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
+  .img1 {
+    position: absolute;
     object-fit: contain;
     padding-top: 3vh;
-    mix-blend-mode: difference;
+    mix-blend-mode: overlay;
+    z-index: 4;
+  }
+  .img2 {
+    position: absolute;
+
+    z-index: -1;
+    object-fit: contain;
+    padding-top: 3vh;
+    z-index: 2;
   }
 }
 .intro__bac-fon--mob {

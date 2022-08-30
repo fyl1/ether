@@ -404,6 +404,7 @@ a {
   width: 58.7vw;
   height: 59vh;
   margin-left: 3.7vw;
+  z-index: 3;
 }
 
 .intro-footer {
@@ -454,11 +455,22 @@ a {
           align-items: center;
 }
 
-.intro__bac-fon img {
+.intro__bac-fon .img1 {
+  position: absolute;
   -o-object-fit: contain;
      object-fit: contain;
   padding-top: 3vh;
-  mix-blend-mode: difference;
+  mix-blend-mode: overlay;
+  z-index: 4;
+}
+
+.intro__bac-fon .img2 {
+  position: absolute;
+  z-index: -1;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-top: 3vh;
+  z-index: 2;
 }
 
 .intro__bac-fon--mob {
