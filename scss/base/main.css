@@ -520,7 +520,7 @@ a {
     padding-top: 6vh;
   }
   .intro__inner {
-    height: calc(100vh - 22.9vh);
+    height: calc(100vh -18.9vh);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -536,7 +536,7 @@ a {
     margin-left: -4.4vw;
   }
   .intro__video-wrapp {
-    min-height: 42vh;
+    min-height: 45vh;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;

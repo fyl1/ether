@@ -148,7 +148,7 @@ padding-bottom: 3vh;
     padding-top: 6vh;
   }
   .intro__inner{
-    height: calc(100vh - 22.9vh);
+    height: calc(100vh -18.9vh);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -157,7 +157,7 @@ padding-bottom: 3vh;
     margin-left: -4.4vw;
   }
   .intro__video-wrapp{
-    min-height:42vh;
+    min-height: 45vh;
     height: fit-content;
     max-height: 45vh;
   }
