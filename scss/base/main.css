@@ -817,7 +817,7 @@ a {
 .price__li video {
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: 46vw;
+  max-width: 33vw;
 }
 
 .price__text {
