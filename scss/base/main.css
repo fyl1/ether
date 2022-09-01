@@ -845,7 +845,7 @@ a {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 27vh auto 27vh auto;
         grid-template-rows: 27vh auto 27vh auto;
-    gap: 2vh 0px;
+    gap: 2vh 15px;
         grid-template-areas: "one1 one1" ". ." "one2 one2" ". .";
     justify-items: stretch;
   }

@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   console.log(openLink)
   menu.forEach((item) => {
     item.addEventListener("click", function (e) {
-      console.log( event.target)
+      console.log(event.target)
       if (event.target == "main-nav__link") {
         console.log("тут что-то есть")
       }
@@ -43,4 +43,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
       // // }
     });
   });
+  document.querySelector(".sub-video-1").play();
+  document.querySelector(".sub-video-2").play();
+  setTimeout(() => {
+    document.querySelector(".sub-video-1").play();
+    document.querySelector(".sub-video-2").play();
+    console.log("dddaa")
+  }, 5000);
+
 });
