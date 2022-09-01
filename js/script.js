@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
   // secondVideo.play();
   document.querySelector(".second-video").play();
   document.querySelector(".mein-video").play();
-  document.querySelector(".sub-video-1").play();
-  document.querySelector(".sub-video-2").play();
+  // document.querySelector(".sub-video-1").play();
+  // document.querySelector(".sub-video-2").play();
 
   // burgerBtn.addEventListener('click', ()=>{
   //   menu.classList.toggle('menu--open');
