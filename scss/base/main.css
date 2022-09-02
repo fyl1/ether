@@ -266,9 +266,26 @@ a {
   background-color: #ffffff;
 }
 
+.mein-video-mob {
+  display: none;
+}
+
+.mein-video-dek {
+  display: block;
+}
+
 @media (min-width: 1200px) {
   .dextop-hidden {
     display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mein-video-dek {
+    display: none;
+  }
+  .mein-video-mob {
+    display: block;
   }
 }
 

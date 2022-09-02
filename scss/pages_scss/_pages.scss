@@ -84,6 +84,12 @@ color: #FFFFFF;
     background-color: #ffffff;
   }
 }
+.mein-video-mob{
+  display: none;
+}
+.mein-video-dek{
+  display:  block;
+}
 
 @media (min-width: 480px) {}
 
@@ -98,7 +104,14 @@ color: #FFFFFF;
 
 @media (min-width: 1686px) {}
 
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+  .mein-video-dek{
+    display: none;
+  }
+  .mein-video-mob{
+    display: block;
+  }
+}
 
 @media (max-width: 991px) {}
 
